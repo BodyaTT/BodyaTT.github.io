@@ -1,0 +1,51 @@
+@media all and (max-width: 1070px) {
+  .content {
+    width: 90%; }
+  main .main-top .about-us {
+    max-width: 100%;
+    left: 0; }
+  main .main-top .top-cards {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  main .main-center .browsers .browser-left,
+  main .main-center .browsers .browser-right {
+    display: none; }
+  main .main-bottom::before {
+    width: 100%; }
+  main .main-bottom .bottom-content h5, main .main-bottom .bottom-content h6, main .main-bottom .bottom-content ul {
+    text-align: center;
+    max-width: 100%; }
+  main .main-bottom .bottom-content::after {
+    display: none; }
+  footer .footer-content {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    footer .footer-content .footer-left-block,
+    footer .footer-content .footer-right-block {
+      width: 100%; }
+    footer .footer-content .footer-right-block h5 {
+      text-align: center; }
+    footer .footer-content .footer-right-block p {
+      max-width: 100%; } }
+
+@media all and (max-width: 740px) {
+  main .main-top .top-cards {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    main .main-top .top-cards .card {
+      max-width: 100%; } }
+
+@media all and (max-width: 560px) {
+  main .main-top .top-cards {
+    padding-top: 350px; }
+  main .main-center .browsers .browser {
+    width: 100%; } }
